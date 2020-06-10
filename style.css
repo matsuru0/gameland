@@ -149,14 +149,19 @@ li a:hover:not(.active){
 
 /* ###Responsive website###*/
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 620px) {
   #header{
-  	font-size: 15px;
+
+  	font-size: 12px;
+  }
+  #header img{
+  	width: 80px;
+  	padding: 0;
   }
   #content{
   	width: 100%;
   	float:left;
-  	height: 620px;
+  	height: auto;
   }
   #footer {
   	font-size:10px;
