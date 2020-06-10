@@ -164,6 +164,7 @@ li a:hover:not(.active){
   	height: auto;
   }
   #footer {
+	height: 60px;
   	font-size:10px;
   }
 }
