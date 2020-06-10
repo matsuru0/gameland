@@ -34,6 +34,7 @@ body{
 	text-transform: uppercase;
 	width: 100%;
 	clear:left;
+	font-size:15px;
 }
 #footer h3{
 	padding: 0px 40px 0px 40px;
@@ -149,8 +150,15 @@ li a:hover:not(.active){
 /* ###Responsive website###*/
 
 @media screen and (max-width: 800px) {
+  #header{
+  	font-size: 15px;
+  }
   #content{
   	width: 100%;
   	float:left;
+  	height: 620px;
+  }
+  #footer {
+  	font-size:10px;
   }
 }
