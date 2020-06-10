@@ -12,8 +12,9 @@ body{
 }
 #content{
 
-	background:black;
+	
 	border:10px red groove;
+	background-color:black;
 	margin-right: auto;
 	margin-left: auto;
 	width: 80%;
@@ -116,6 +117,9 @@ ul{
 }
 #content li a:hover:not(.active){
 	color: green;
+}
+#content li a{
+	text-decoration: underline red;
 }
 #content li{
 	padding: 20px;
