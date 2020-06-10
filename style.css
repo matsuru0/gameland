@@ -1,0 +1,149 @@
+body{
+	margin:0;
+	padding: 0;
+	line-height: 1.5em;
+	font-size:10px;
+}
+
+#header{
+	background-color: black;
+	font-family:Arial;
+	height: 100px;
+}
+#content{
+
+	background:black;
+	border:10px red groove;
+	margin-right: auto;
+	margin-left: auto;
+	width: 80%;
+	height: 600px;
+}
+#contentcolumun{
+	
+}
+#footer {
+	justify-content: flex-end;
+	display: flex;
+	height: 30px;
+	margin-top: 50px;
+	background-color: grey;
+	padding: 4px;
+	width: 100%;
+	clear:left;
+}
+#footer h3{
+	padding: 0px 20px 0px 20px;
+}
+#footer li{
+	text-align: left;
+}
+#footer ul{
+	text-align: center;
+}
+#footer li a{
+	
+
+	color:white;
+	text-align: center;
+	padding:14px 16px;
+	text-decoration: underline red;
+}
+.innertext{
+
+	text-align: center;
+	font-family: helvetica, arial, sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	color:white;
+
+}
+.fix{
+	
+	
+	position: fixed;
+	top: 250px;
+	margin-top: auto;
+	margin-bottom: auto;
+}
+.fix a{
+	text-transform: uppercase;
+	font-size: 20px;
+	font-family: helvetica, arial, sans-serif;
+	
+	text-decoration: none;
+	color:white;
+}
+
+.fix img:hover{
+	
+	width: 80px;
+}
+
+/* ### Navigation Bar ### */
+.up a{
+	padding: 2px 50px 2px 50px;
+	color:white;
+	text-decoration: underline red;
+	margin-right: auto;
+	margin-left: auto;
+}
+.up a:hover{
+	background-color: #808080;
+	color:green;
+}
+
+ul{
+	text-align: center;
+	padding:14px 16px;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	background-color: #000;
+}
+#header li{
+	float:left;
+	border-right: 1px solid #bbb;
+	border-left: 1px solid #bbb;
+}
+
+
+#content img{
+	margin-top: 30px;
+}
+#content li a:hover:not(.active){
+	color: green;
+}
+#content li{
+	padding: 20px;
+}
+li:last-child{
+	border-right: none;
+}
+#header li:first-child{
+	border-left:none;
+	border-right:none;
+
+}
+li a{
+	display:block;
+	color:white;
+	text-align: center;
+	padding:14px 16px;
+	text-decoration: none;
+}
+li a:hover:not(.active){
+	background-color: #808080;
+}
+.active{
+	background-color: #0099ff;
+}
+
+/* ###Responsive website###*/
+
+@media screen and (max-width: 800px) {
+  #content{
+  	width: 100%;
+  	float:left;
+  }
+}
